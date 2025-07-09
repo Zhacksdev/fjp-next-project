@@ -1,41 +1,104 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌐 FJP Official – Company Profile Website (Next.js Version)
 
-First, run the development server:
+Website ini merupakan versi remake dari website HTML statis milik FJP Official, dikembangkan ulang menggunakan **Next.js**, **Tailwind CSS**, dan **shadcn/ui** agar lebih modern, modular, dan SEO-friendly.
+
+---
+
+## 🚀 Live Preview
+
+📍 [https://fjpofficial.com](https://fjpofficial.com)  
+📍 (Subdomain dinamis, jika ada): `https://app.fjpofficial.com`
+
+---
+
+## ⚙️ Tech Stack
+
+| Area             | Teknologi                                   |
+|------------------|----------------------------------------------|
+| Framework        | [Next.js](https://nextjs.org/)               |
+| Styling          | [Tailwind CSS](https://tailwindcss.com/)     |
+| UI Components    | [shadcn/ui](https://ui.shadcn.com/)          |
+| Icons            | [Lucide React](https://lucide.dev/)          |
+| Carousel         | [Swiper.js](https://swiperjs.com/)           |
+| Gambar           | `next/image` (image optimization)            |
+| SEO              | `next/head` + [`next-seo`](https://github.com/garmeeh/next-seo) |
+| Deployment       | [Vercel](https://vercel.com/)                |
+
+---
+
+## 📥 Instalasi & Menjalankan Proyek
 
 ```bash
+# 1. Clone repository
+git clone https://github.com/username/fjp-next-project.git
+cd fjp-next-project
+
+# 2. Install dependencies
+npm install
+
+# 3. Jalankan development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 4. Buka di browser
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧱 Struktur Folder
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+fjp-next-project/
+├─ app/                  # Halaman utama (Next.js App Router)
+│   └─ page.jsx
+├─ components/           # Komponen utama: HeroImage, Client, WeDo, Service
+├─ public/               # Aset publik: gambar, logo, icon SVG
+├─ styles/               # File Tailwind + Global CSS
+│   └─ globals.css
+├─ .gitignore
+├─ tailwind.config.js
+├─ next.config.js
+├─ README.md             # File dokumentasi ini
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Fitur Website
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ Hero section dengan animasi teks dinamis
+- ✅ Section "We Do" menampilkan keunggulan jasa
+- ✅ Carousel klien dengan Swiper.js
+- ✅ Komponen layanan siap dikembangkan dinamis
+- ✅ SEO optimization dengan meta tag & open graph
+- ✅ Gambar teroptimasi dan responsif
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Fitur Mendatang
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Konten layanan dinamis dari CMS
+- [ ] Integrasi form kontak dengan `react-hook-form` atau API route
+- [ ] Halaman portofolio projek
+- [ ] Struktur blog artikel
+- [ ] Mode gelap (dark mode)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# fjp-next-project
-Melakukan konversi dari website statis (HTML + SCSS) menjadi web dinamis berbasis Next.js, agar lebih modular, modern, dan scalable, serta tetap mempertahankan performa dan SEO yang sudah dibangun.
->>>>>>> bb1f75212f6b28d9e54d22d349112d409df9b617
+---
+
+## 💡 Kontributor
+
+- 👨‍💻 [@Zhacksdev](https://github.com/Zhacksdev) – Fullstack Developer
+- 📸 Tim FJP Official – Konten, branding, dan desain
+
+---
+
+## 📜 Lisensi
+
+MIT License.  
+Website ini dikembangkan untuk keperluan resmi FJP Official dan boleh digunakan kembali untuk proyek personal/non-komersial dengan menyebutkan atribusi.
+
+---
+
+### 🧠 Catatan Pengembangan
+
+> Website ini sebelumnya dibangun menggunakan HTML statis. Remake dilakukan untuk mempercepat pengembangan, mempermudah kolaborasi tim, dan mendukung peningkatan performa melalui SSR dan optimasi SEO bawaan dari Next.js.
