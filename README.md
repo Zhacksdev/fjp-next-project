@@ -5,13 +5,6 @@ Website ini merupakan versi remake dari website HTML statis milik FJP Official, 
 
 ---
 
-## 🚀 Live Preview
-
-📍 [https://fjpofficial.com](https://fjpofficial.com)  
-📍 (Subdomain dinamis, jika ada): `https://app.fjpofficial.com`
-
----
-
 ## ⚙️ Tech Stack
 
 | Area             | Teknologi                                   |
@@ -75,17 +68,6 @@ fjp-next-project/
 
 ---
 
-## ✨ Fitur Website
-
-- ✅ Hero section dengan animasi teks dinamis
-- ✅ Section "We Do" menampilkan keunggulan jasa
-- ✅ Carousel klien dengan Swiper.js
-- ✅ Komponen layanan siap dikembangkan dinamis
-- ✅ SEO optimization dengan meta tag & open graph
-- ✅ Gambar teroptimasi dan responsif
-
----
-
 ## 🛠️ Fitur Mendatang
 
 - [ ] Konten layanan dinamis dari CMS
@@ -93,6 +75,10 @@ fjp-next-project/
 - [ ] Halaman portofolio projek
 - [ ] Struktur blog artikel
 - [ ] Mode gelap (dark mode)
+- [ ] Navigasi yang lebih terstruktur
+- [ ] Integrasi AI untuk generate gambar proyek
+- [ ] Menampilkan konten dari Instagram
+- [ ] Chat bot otomatis
 
 ---
 
