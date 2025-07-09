@@ -50,16 +50,27 @@ http://localhost:3000
 
 ```
 fjp-next-project/
-├─ app/                  # Halaman utama (Next.js App Router)
-│   └─ page.jsx
-├─ components/           # Komponen utama: HeroImage, Client, WeDo, Service
-├─ public/               # Aset publik: gambar, logo, icon SVG
-├─ styles/               # File Tailwind + Global CSS
-│   └─ globals.css
-├─ .gitignore
-├─ tailwind.config.js
-├─ next.config.js
-├─ README.md             # File dokumentasi ini
+├─ app/                     # Folder utama untuk routing dan halaman
+│  ├─ article/              # Halaman artikel
+│  ├─ contact/              # Halaman kontak
+│  ├─ home/                 # Halaman beranda
+│  ├─ product/              # Halaman produk
+│  ├─ service/              # Halaman layanan
+│  ├─ favicon.ico           # Ikon website
+│  ├─ globals.css           # Global stylesheet
+│  ├─ layout.tsx            # Root layout Next.js App Router
+│  └─ page.tsx              # Root page (default route)
+├─ node_modules/            # Dependency packages
+├─ public/                  # Aset publik: gambar, font, icon
+├─ .gitignore               # File untuk mengecualikan file dari Git
+├─ eslint.config.mjs        # Konfigurasi linting JavaScript/TypeScript
+├─ next-env.d.ts            # TypeScript environment declarations
+├─ next.config.ts           # Konfigurasi utama Next.js
+├─ package-lock.json        # Lockfile dependencies
+├─ package.json             # Metadata proyek dan dependencies
+├─ postcss.config.mjs       # Konfigurasi PostCSS
+├─ README.md                # File dokumentasi proyek
+└─ tsconfig.json            # Konfigurasi TypeScript
 ```
 
 ---
